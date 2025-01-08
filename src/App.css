@@ -9,7 +9,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom right, #1e3a8a, #2563eb);
+  background: linear-gradient(to bottom right, #373A40, #1d1e21);
   color: white;
   font-family: 'Roboto', Arial, sans-serif;
   padding: 2rem;
@@ -25,7 +25,7 @@ body{
 .app-input {
   padding: 0.75rem;
   margin-bottom: 1.5rem;
-  border: 2px solid #93c5fd;
+  border: 2px solid #DC5F00;
   border-radius: 8px;
   width: 250px;
   font-size: 1.1rem;
@@ -34,13 +34,13 @@ body{
 
 .app-input:focus {
   outline: none;
-  border-color: #60a5fa;
+  border-color: #DC5F00;
   box-shadow: 0 0 10px rgba(96, 165, 250, 0.5);
 }
 
 .app-button {
   padding: 0.75rem 1.5rem;
-  background-color: #3b82f6;
+  background-color: #DC5F00;
   color: white;
   border: none;
   border-radius: 8px;
@@ -51,12 +51,12 @@ body{
 }
 
 .app-button:hover {
-  background-color: #2563eb;
+  background-color: #bd5302;
   transform: scale(1.05);
 }
 
 .app-button:active {
-  background-color: #1e40af;
+  background-color: #904003;
 }
 
 .app-result {
