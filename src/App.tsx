@@ -1,6 +1,6 @@
 // Main application file (App.jsx)
-import React, { useState } from 'react';
-import './app.css';
+import { useState } from 'react';
+import './App.css';
 
 function App() {
   const [number, setNumber] = useState('');
