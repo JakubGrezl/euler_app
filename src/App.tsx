@@ -37,7 +37,7 @@ function App() {
               value={number}
               onChange={(e) => setNumber(e.target.value)}
               placeholder="Zadejte číslo"
-              className="app-input"
+              className="app-input text-black"
           />
           <button
               onClick={factorize}
