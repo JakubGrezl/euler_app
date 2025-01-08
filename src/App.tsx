@@ -1,6 +1,6 @@
 // Main application file (App.jsx)
 import React, { useState } from 'react';
-import './index.css';
+import './app.css';
 
 function App() {
   const [number, setNumber] = useState('');
@@ -51,6 +51,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
