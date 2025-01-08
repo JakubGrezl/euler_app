@@ -28,28 +28,30 @@ function App() {
   };
 
   return (
-    <div className="app-container">
-      <h1 className="app-title">Rozklad na prvočísla</h1>
-      <input
-        type="text"
-        value={number}
-        onChange={(e) => setNumber(e.target.value)}
-        placeholder="Zadejte číslo"
-        className="app-input"
-      />
-      <button
-        onClick={factorize}
-        className="app-button"
-      >
-        Rozložit na prvočísla
-      </button>
-      {result && (
-        <div className="app-result">
-          <strong>Výsledek:</strong> {result}
-        </div>
-      )}
-    </div>
-  );
+      <div className="app-container">
+        <p>Made by Kryštof Thomayer, Honza Zubec a Geňo Jakub</p>
+
+          <h1 className="app-title">Rozklad na prvočísla</h1>
+          <input
+              type="text"
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
+              placeholder="Zadejte číslo"
+              className="app-input"
+          />
+          <button
+              onClick={factorize}
+              className="app-button"
+          >
+            Rozložit na prvočísla
+          </button>
+          {result && (
+              <div className="app-result">
+                <strong>Výsledek:</strong> {result}
+              </div>
+          )}
+      </div>
+);
 }
 
 export default App;
